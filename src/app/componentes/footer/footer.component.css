@@ -1,6 +1,6 @@
 
 #footer { /* damos algunos estilos al footer */
-    background: #c6b379; /* Fondo */
+    background: #857446; /* Fondo */
     font-size: 13px; /* Tamaño */
     padding-top: 15px;
     padding-bottom: 11px;
@@ -10,8 +10,8 @@
 .footerSedes {
     font-size: 13px;
     font-weight: 400;
-    color: aliceblue;
-    background: #7d6917;
+    color: black;
+    background: #DCBE98;
     width: 52px;
     height: 20px;
     text-align: center;
@@ -21,8 +21,8 @@
 .footerTelefonos {
     font-size: 13px;
     font-weight: 400;
-    color: aliceblue;
-    background: #7d6917;
+    color: black;
+    background: #DCBE98;
     width: 70px;
     height: 24px;
     text-align: center;
@@ -33,8 +33,8 @@
 .footerHorarios {
     font-size: 13px;
     font-weight: 400;
-    color: aliceblue;
-    background: #7d6917;
+    color: black;
+    background: #DCBE98;
     width: 61px;
     height: 21px;
     text-align: center;
@@ -90,11 +90,17 @@ h6 {
 
 /*suscribirse*/
 button.btn.btn-outline-success.my-2.my-sm-0 {
-    color: #b59526;
+    color: black;
     border-color: aliceblue;
-    background: #fdfcf8;
-    font-size: 12px;
+    background: #E39741;
+    font-size: 20px;
     font-weight: 500;
+    width: 167px;
+    height: 50px;
+    margin-top: 20px;
 }
 
+#capCorreo{
+    text-align: center;
+}
 

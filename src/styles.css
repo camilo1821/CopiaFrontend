@@ -8,32 +8,36 @@ body{
 }
 
 #infGeneral { /*Definimos estilos especificos para el div infGeneral del Home*/
-    background: #e9e6d0;
-    margin: 20px;
+    background: #463D27;
+    margin: center;
     border-radius: 3px;
     font-size: smaller;
     text-align: justify;
     padding-top: 20px;
+    color: white;
 }
-
 
 #imgValora {
     width: 173px;
     border-radius: 4px;
     padding-bottom: 6px;
+    margin-right: 50px;
 }
 
 #btnValoracion{
-    width: 135px;
+    width: 167px;
     height: 50px;
-    font-size: 21px;
+    font-size: 23px;
     font-weight: 600;
+    padding-bottom:20px;
     background: white;
     font-style: oblique;
-    border: solid 2px white;
+    border: solid 2px black;
     margin-left: 17px;
     margin-bottom: 4px;
     border-radius: 8px;
+    color: black;
+
 }
 
 #btnValoracion:hover{
@@ -53,8 +57,8 @@ body{
 
 }
 
-a.navbar-brand { /* definimos estilos al home denominado H&M */
-    background: #feffff;
+a.navbar-brand { 
+    background: none;
     width: 55px;
     height: 35px;
     padding: 4px;
@@ -65,27 +69,18 @@ a.navbar-brand { /* definimos estilos al home denominado H&M */
     font-weight: 700;
 }
 
-a.navbar-brand:hover { /* definimos estilos de animacion al home denominado H&M */
+a.navbar-brand:hover { 
     background: #c6b379;
-}
-
-
-button.btn.btn-outline-success.my-2.my-sm-0 { /* definimos estilos a los botones: enviar, suscribirme */
-    color: white;
-    border-color: aliceblue;
-    background: #996410;
-    font-size: 10px;
-    font-weight: 700;
 }
 
 /* definimos estilos al contenido del PREfooter en general */
 .footerSedes {
     font-size: 13px;
     font-weight: 700;
-    color: aliceblue;
-    background: #7d6917;
-    width: 52px;
-    height: 20px;
+    color: black;
+    background: #DCBE98;
+    width: 70px;
+    height: 24px;
     text-align: center;
     border-radius: 9px;
 }
@@ -93,8 +88,8 @@ button.btn.btn-outline-success.my-2.my-sm-0 { /* definimos estilos a los botones
 .footerTelefonos {
     font-size: 13px;
     font-weight: 700;
-    color: aliceblue;
-    background: #7d6917;
+    color: black;
+    background: #DCBE98;
     width: 70px;
     height: 24px;
     text-align: center;
@@ -105,35 +100,31 @@ button.btn.btn-outline-success.my-2.my-sm-0 { /* definimos estilos a los botones
 .footerHorarios {
     font-size: 13px;
     font-weight: 700;
-    color: aliceblue;
-    background: #7d6917;
-    width: 61px;
-    height: 21px;
+    color: black;
+    background: #DCBE98;
+    width: 70px;
+    height: 24px;
     text-align: center;
     border-radius: 9px;
 }
 
 h6 {
     font-size: 1rem;
-    color: mintcream;
+    color: black;
     font-weight: 700;
     padding-top: 9px;
     margin-bottom: 0.5rem;
     line-height: 4px;
 }
 
-#LogoSite { /*estilos a la imagen principal*/
-    width: 14%;
-    margin-left: 500px;
-}
-
-.carousel-inner { /*Definimos estilos para el carousel*/
+.carousel-inner { 
     position: relative;
-    width: 50%;
+    width: 65%;
     overflow: hidden;
     margin: auto;
     border: #222121;
     border: 8px;
+    
 }
 
 #rsociales {
@@ -231,4 +222,29 @@ footer {
   }
 div#Datos-Usuario img {
   cursor: pointer;
+}
+
+
+
+
+
+body {
+    background-image: url('../../Backend-copia/uploads/pexels-francesco-ungaro-3093100.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; /* Fija la imagen en la pantalla */
+}
+
+
+/* Estilo global para todos los botones */
+button {
+    background-color: #007bff; /* Color de fondo azul */
+    color: #ffffff; /* Color del texto blanco */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Cursor en forma de mano */
+    transition: background-color 0.3s ease; /* Transición suave */
 }
