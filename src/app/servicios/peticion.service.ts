@@ -12,7 +12,7 @@ export class PeticionService {
 
   //18.119.0.212
 
-  urlHost:string="http://18.119.0.212:3000"
+  urlHost:string="localhost:3000"
 
   Post(url:string,data:{}){
 

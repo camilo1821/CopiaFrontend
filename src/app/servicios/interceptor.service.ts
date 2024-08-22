@@ -14,7 +14,7 @@ export class InterceptorService implements HttpInterceptor {
     console.log("interceptor")
     this.requestOption={
       headers: new HttpHeaders({
-        //"Content-Type":"application/json;charset=UTF-8"
+        "Content-Type":"application/json;charset=UTF-8"
       }), withCredentials: true // <----- esa configuracion es muy importante.
     }
     const reqClone=req.clone(this.requestOption)

@@ -12,10 +12,10 @@ body{
     display: flex;
     flex-direction: column;
     word-wrap: break-word;
-    background-color:whitesmoke;
+    background-color:none;
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, .125);
-    border-radius: .25rem;
+    border-radius: 45px;
     margin: 30px;
     width: 80%;
 }
@@ -23,13 +23,13 @@ body{
 #misionyvision {
     margin-left: 13%;
     width: 70%;
-    border-radius: 20px;
+    border-radius: 45px;
 }
 
 #misionyvision[_ngcontent-ng-c4271061551] {
     margin-left: 17%;
     width: 35%;
-    border-radius: 20px;
+    border-radius: 45px;
     margin-left: 31%;
 }
 
@@ -40,6 +40,7 @@ body{
     text-align: justify;
     padding-bottom: 50px;
     position:unset;
+    border-radius: 45px;
 }
 
 
@@ -52,6 +53,7 @@ body{
     width: fit-content;
     margin-left: auto;
     padding-bottom: 10px;
+    border-radius: 45px;
 }
 
 #PHespecialistas:hover{
@@ -79,16 +81,16 @@ p {
     flex: 1 1 auto;
     min-height: 1px;
     padding: 1.25rem;
-    background: beige;
-    border-radius: 25px;
-    border: solid rgb(220, 183, 60) 1px;
+    background: none;
+    border-radius: 45px;
+    border: none;
 }
 
 .card-body:hover {
     flex: 1 1 auto;
     min-height: 1px;
     padding: 1.25rem;
-    background: rgb(255, 255, 255);
+    background: none;
     cursor: pointer;
 
 }
@@ -97,14 +99,14 @@ p {
 #misionyvision[_ngcontent-ng-c2836227652] {
     margin-left: 24%;
     width: 50%;
-    border-radius: 20px;
+    border-radius: 45px;
 }
 
 .card-body[_ngcontent-ng-c2836227652] {
     flex: 1 1 auto;
     min-height: 1px;
     padding: 0.25rem;
-    background: beige;
+    background: none;
     padding: 23px;
-    border-radius: 26px;
+    border-radius: 45px;
 }
